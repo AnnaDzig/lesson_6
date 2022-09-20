@@ -1,0 +1,71 @@
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+	font-family:'Lato', sans-serif;
+}
+
+.container {
+	min-width: 810px;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	text-align: center;
+	/*text-shadow: 2px 2px 5px #000, 5px -2px 10px red;*/
+
+}
+
+.description-paragraph, .block {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	
+	/*text-transform:uppercase;
+	text-indent: 400px;*/
+}
+
+.block {
+	margin: 48px 0 48px 58px ;
+}
+
+.container {
+	box-sizing: border-box;
+	max-width: 810px;
+	margin: 0 auto;
+
+}
+
+.image {
+	height: 360px;
+	margin:92px 0  60px auto;
+	/*border-radius: 90px;
+	box-shadow:  20px 50px 10px rgb(88, 181, 236);*/
+}
+
+.paragraph {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	color: #424551;
+
+}
+
+.paragraph {
+	margin: 24px 0;
+}
+
+.list {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	padding-left: 32px;
+}
